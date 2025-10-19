@@ -20,3 +20,9 @@ Para bind mount o volume se puede usar una de las dos flags junto a la orden doc
 Es importante leer la documentación de  cada imagen para conocer cómo persistir los datos de esa imagen y cuáles son las carpetas que se deben considerar en caso de ser imágenes que contengan ciertos servicios (web, base de datos etc).
 
 ### Es importante recordar que los volúmenes deben configurarse durante la creación del contenedor, ya que Docker no permite cambiar los volúmenes montados una vez que el contenedor ha sido creado
+
+
+Contenedor de volumen
+
+<img width="948" height="244" alt="image" src="https://github.com/user-attachments/assets/9db2daa4-5a7d-4212-be66-d2f41cf7f184" />
+
