@@ -16,22 +16,25 @@ docker run -d --name <nombre contenedor> --mount type=bind,source=<ruta carpeta 
 
 ### Crear un contenedor con la imagen nginx:alpine, mapear todos por puertos, para la ruta carpeta host colocar el directorio en donde se encuentra la carpeta html en tu computador y para la ruta carpeta contenedor: /usr/share/nginx/html (esta ruta se obtiene al revisar la documentación de la imagen)
 ![Volúmenes](volumen-host.PNG)
-# COMPLETAR CON EL COMANDO
+<img width="938" height="407" alt="image" src="https://github.com/user-attachments/assets/cb23760a-b695-4bae-b5fb-42a27661440e" />
+
 
 ### ¿Qué sucede al ingresar al servidor de nginx?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+Se muestra en el servidor lo que se ingreso en el archivo HTML creado anteriormente.
 
 ### ¿Qué pasa con el archivo index.html del contenedor?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+Es el archivo que se mostrara en la pagina web, es decir si lo podemos modificar para realizar li que querramos.
 
 ### Ir a https://html5up.net/ y descargar un template gratuito, descomprirlo dentro de tu computador en la carpeta html
 ### ¿Qué sucede al ingresar al servidor de nginx?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+Se muestra el template descargado como pagina web.
 
 ### Eliminar el contenedor
-# COMPLETAR CON EL COMANDO
+
+<img width="919" height="115" alt="image" src="https://github.com/user-attachments/assets/025b8d34-91ac-4ed4-92cc-a77cbab20847" />
+
+como usamos rm al crear el contedor, este se elimino al momento. 
 
 ### ¿Qué sucede al crear nuevamente un contenedor montado al directorio definidos anteriormente?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
-
+Se vuelve a crear si problemas. 
 
